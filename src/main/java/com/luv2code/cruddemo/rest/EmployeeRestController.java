@@ -1,12 +1,10 @@
 package com.luv2code.cruddemo.rest;
 
-import com.luv2code.cruddemo.dao.EmployeeDAO;
 import com.luv2code.cruddemo.entity.Employee;
 import com.luv2code.cruddemo.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.persistence.EntityManager;
 import java.util.List;
 
 @RestController
